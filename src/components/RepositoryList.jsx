@@ -5,7 +5,6 @@ import useRepositories from '../hooks/useRepositories.js'
 
 const RepositoryList = () => {
   const {repositories} =  useRepositories()
-  console.log(repositories)
   return (
     <FlatList
       data={repositories}
